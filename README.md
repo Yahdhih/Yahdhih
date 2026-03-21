@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Yahdhih ABDEL WEDOUD</h1>
+<h1 align="center">Hi , I'm Yahdhih ABDEL WEDOUD</h1>
 <h3 align="center">Computer Science Student at ENSIIE | HPC • AI/ML • Software Engineering • Optimization</h3>
 
 <p align="center">
