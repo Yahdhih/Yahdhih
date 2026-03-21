@@ -7,17 +7,17 @@
 
 ---
 
-## 🚀 About Me
+##  About Me
 
-- 🎓 Computer Science student at **ENSIIE**
-- 💻 Interested in **Software Engineering**, **High-Performance Computing**, **Artificial Intelligence**, and **Machine Learning**
-- ⚙️ Focused on **parallel programming**, **CPU/GPU computing**, **optimization**, and **scalable systems**
-- 🌱 Currently learning more about **distributed systems**, **advanced ML systems**, and **GPU performance engineering**
-- 🤝 Open to collaborating on **AI/ML**, **HPC**, and **software engineering** projects
+-  Computer Science student at **ENSIIE**
+-  Interested in **Software Engineering**, **High-Performance Computing**, **Artificial Intelligence**, and **Machine Learning**
+-  Focused on **parallel programming**, **CPU/GPU computing**, **optimization**, and **scalable systems**
+-  Currently learning more about **distributed systems**, **advanced ML systems**, and **GPU performance engineering**
+-  Open to collaborating on **AI/ML**, **HPC**, and **software engineering** projects
 
 ---
 
-## 🎯 Main Areas of Interest
+##  Main Areas of Interest
 
 <p align="center">
   <img src="https://img.shields.io/badge/Software%20Engineering-0D1117?style=for-the-badge&logo=github&logoColor=white" />
@@ -29,7 +29,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Languages
 <p>
@@ -69,7 +69,7 @@
 
 ---
 
-## 🔭 Current Focus
+##  Current Focus
 
 - Building projects involving **AI**, **optimization**, and **high-performance computing**
 - Improving my skills in **parallel programming** and **GPU/CPU performance**
@@ -77,7 +77,7 @@
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" />
@@ -86,7 +86,7 @@
 
 ---
 
-## 📈 Contribution Graph
+##  Contribution Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true&radius=12" alt="GitHub Activity Graph" />
@@ -94,7 +94,7 @@
 
 ---
 
-## 🏆 GitHub Trophies
+##  GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12" />
@@ -102,7 +102,7 @@
 
 ---
 
-## 💬 Ask Me About
+##  Ask Me About
 
 - Software engineering fundamentals
 - HPC and parallel programming
@@ -112,7 +112,7 @@
 
 ---
 
-## 📫 Contact
+##  Contact
 
 <p>
   <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
@@ -129,5 +129,5 @@
 ---
 
 <p align="center">
-  <b>Building efficient systems, learning deeply, and aiming for technical excellence.</b> 🚀
+  <b>Building efficient systems, learning deeply, and aiming for technical excellence.</b> 
 </p>
