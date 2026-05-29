@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yahdhih Abdel Wedoud — HPC · ML · Optimization</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-logo">YAW<span class="accent">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <canvas id="neural-canvas"></canvas>
+    <div class="hero-grid-overlay"></div>
+    <div id="math-floats"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag">Engineering Student @ ENSIIE · Paris, France</div>
+      <h1 class="hero-name">Yahdhih<br><span class="name-accent">Abdel Wedoud</span></h1>
+      <div class="hero-subtitle">
+        <span id="type-text"></span><span class="cursor">_</span>
+      </div>
+      <p class="hero-desc">
+        Research-oriented engineer bridging <strong>mathematical theory</strong> and
+        <strong>large-scale computation</strong> — from ML model optimization
+        to HPC supercomputer architecture.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-math-panel">
+      <div class="math-panel-inner">
+        <div class="math-comment">// gradient descent</div>
+        <div class="math-eq">θ<sub>t+1</sub> ← θ<sub>t</sub> − η·∇L(θ<sub>t</sub>)</div>
+        <div class="math-divider"></div>
+        <div class="math-comment">// convergence</div>
+        <div class="math-eq">‖∇L(θ)‖ &lt; ε</div>
+        <div class="math-divider"></div>
+        <div class="math-comment">// speedup (Amdahl)</div>
+        <div class="math-eq">S(p) = 1 / (s + (1−s)/p)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-label">01 / About</div>
+      <h2 class="section-title">Driven by Mathematics<br>& Computation</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm an engineering student at <strong>ENSIIE</strong> (École Nationale Supérieure d'Informatique, Évry) pursuing a Master's-level degree in Computer Science.
+            My work sits at the intersection of <strong>machine learning</strong>, <strong>high-performance computing</strong>, and <strong>mathematical optimization</strong>.
+          </p>
+          <p>
+            I'm drawn to the deep mathematics underlying intelligent systems —
+            probability theory, linear algebra, convex optimization, numerical analysis —
+            and to translating these into efficient large-scale implementations
+            on modern hardware: CPUs, GPUs, clusters.
+          </p>
+          <p>
+            From designing a <strong>64,000-core supercomputer</strong> to training
+            CNN-based object detection models, to building parallel algorithms
+            with MPI and CUDA — I work across the full stack from theory to silicon.
+          </p>
+          <div class="about-langs">
+            <span class="lang-tag">🇫🇷 French — Fluent</span>
+            <span class="lang-tag">🇬🇧 English — Professional</span>
+            <span class="lang-tag">🇲🇷 Arabic — Native</span>
+          </div>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-card honor">
+            <div class="stat-icon">🏆</div>
+            <div class="stat-value">2021</div>
+            <div class="stat-label">International Science Olympiad<br>National Representative · Mauritania</div>
+          </div>
+          <div class="stat-card honor">
+            <div class="stat-icon">🥇</div>
+            <div class="stat-value">#1</div>
+            <div class="stat-label">National Baccalaureate<br>Valedictorian · Mauritania 2021</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">⚡</div>
+            <div class="stat-value">64K</div>
+            <div class="stat-label">CPU cores — HPC cluster<br>designed from scratch</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🔬</div>
+            <div class="stat-value">6+</div>
+            <div class="stat-label">Research projects across<br>ML, HPC & Systems</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERTISE ===== -->
+  <section id="expertise">
+    <div class="section-container">
+      <div class="section-label">02 / Expertise</div>
+      <h2 class="section-title">Research Domains</h2>
+      <div class="expertise-grid">
+
+        <div class="expertise-card">
+          <div class="card-glyph">∑</div>
+          <h3>Math & Optimization</h3>
+          <p>Convex optimization, gradient methods, probability theory, numerical analysis, linear algebra — the mathematical foundations that power modern ML and scientific computing.</p>
+          <div class="card-tags">
+            <span>Gradient Descent</span><span>Convex Opt.</span>
+            <span>Probability</span><span>Numerical Methods</span>
+          </div>
+        </div>
+
+        <div class="expertise-card hpc-card">
+          <div class="card-glyph">⚡</div>
+          <h3>HPC & Parallel Computing</h3>
+          <p>Supercomputer architecture, parallel algorithms, GPU programming. From CUDA kernel optimization to full cluster design with InfiniBand HDR and Lustre parallel filesystems.</p>
+          <div class="card-tags">
+            <span>CUDA</span><span>OpenMP</span><span>MPI</span>
+            <span>SLURM</span><span>InfiniBand</span>
+          </div>
+        </div>
+
+        <div class="expertise-card ml-card">
+          <div class="card-glyph">🧠</div>
+          <h3>Machine Learning</h3>
+          <p>Deep learning, computer vision, object detection. Training CNNs, analyzing YOLO architectures for real-time inference, multi-object tracking with SORT/DeepSort.</p>
+          <div class="card-tags">
+            <span>PyTorch</span><span>CNN</span><span>YOLO</span>
+            <span>Computer Vision</span><span>TensorFlow</span>
+          </div>
+        </div>
+
+        <div class="expertise-card sys-card">
+          <div class="card-glyph">⚙</div>
+          <h3>Systems & Infrastructure</h3>
+          <p>Linux systems administration, big data pipelines, DevOps automation. Security research, vulnerability analysis, and large-scale infrastructure design.</p>
+          <div class="card-tags">
+            <span>Linux</span><span>Docker</span><span>Spark</span>
+            <span>Kafka</span><span>Security</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TECH STACK ===== -->
+  <section id="stack">
+    <div class="section-container">
+      <div class="section-label">03 / Stack</div>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="stack-grid">
+
+        <div class="stack-category">
+          <h4>Languages</h4>
+          <div class="skill-list">
+            <div class="skill-item"><span>Python</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div><span class="skill-pct">Advanced</span></div>
+            <div class="skill-item"><span>C / C++</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div><span class="skill-pct">Advanced</span></div>
+            <div class="skill-item"><span>CUDA</span><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div><span class="skill-pct">Proficient</span></div>
+            <div class="skill-item"><span>Java</span><div class="skill-bar"><div class="skill-fill" data-width="72"></div></div><span class="skill-pct">Intermediate</span></div>
+            <div class="skill-item"><span>OCaml</span><div class="skill-bar"><div class="skill-fill" data-width="65"></div></div><span class="skill-pct">Intermediate</span></div>
+            <div class="skill-item"><span>Bash</span><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div><span class="skill-pct">Proficient</span></div>
+          </div>
+        </div>
+
+        <div class="stack-category">
+          <h4>HPC & Parallel</h4>
+          <div class="tech-tags">
+            <span class="tech-tag hpc">OpenMP</span>
+            <span class="tech-tag hpc">MPI</span>
+            <span class="tech-tag hpc">CUDA</span>
+            <span class="tech-tag hpc">SLURM</span>
+            <span class="tech-tag hpc">InfiniBand HDR</span>
+            <span class="tech-tag hpc">Lustre FS</span>
+            <span class="tech-tag hpc">PBS</span>
+            <span class="tech-tag hpc">Profiling</span>
+          </div>
+        </div>
+
+        <div class="stack-category">
+          <h4>ML / Deep Learning</h4>
+          <div class="tech-tags">
+            <span class="tech-tag ml">PyTorch</span>
+            <span class="tech-tag ml">TensorFlow</span>
+            <span class="tech-tag ml">CNN / Deep Learning</span>
+            <span class="tech-tag ml">YOLO</span>
+            <span class="tech-tag ml">SORT / DeepSort</span>
+            <span class="tech-tag ml">NumPy</span>
+            <span class="tech-tag ml">Computer Vision</span>
+          </div>
+        </div>
+
+        <div class="stack-category">
+          <h4>Systems & DevOps</h4>
+          <div class="tech-tags">
+            <span class="tech-tag sys">Linux / RHEL</span>
+            <span class="tech-tag sys">Docker</span>
+            <span class="tech-tag sys">Kubernetes</span>
+            <span class="tech-tag sys">Git</span>
+            <span class="tech-tag sys">Puppet</span>
+            <span class="tech-tag sys">Apache Spark</span>
+            <span class="tech-tag sys">Kafka</span>
+            <span class="tech-tag sys">OpenSearch</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-label">04 / Projects</div>
+      <h2 class="section-title">Research & Engineering<br>Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-badge">HPC Architecture</div>
+          <div class="project-icon-row"><span>🖥️</span></div>
+          <h3>Supercomputer Design</h3>
+          <p>Designed a full HPC supercomputer for the University of Rennes: 64,000 CPU cores, 80× NVIDIA H200 GPUs, InfiniBand HDR200 Fat Tree topology, Lustre parallel filesystem, SLURM workload manager. Modeled system-level trade-offs for petascale research workloads.</p>
+          <div class="project-tags">
+            <span>SLURM</span><span>InfiniBand HDR200</span><span>Lustre</span><span>RHEL</span><span>Fat Tree</span>
+          </div>
+        </div>
+
+        <div class="project-card featured ml-proj">
+          <div class="project-badge ml-badge">ML Research</div>
+          <div class="project-icon-row"><span>👁️</span></div>
+          <h3>Object Detection & Tracking</h3>
+          <p>Trained CNN-based object detection models with PyTorch, analyzed YOLO-family architectures for real-time inference. Implemented multi-object tracking with SORT/DeepSort. Built a full data science pipeline for dataset curation, augmentation, and benchmark evaluation (mAP, IoU).</p>
+          <div class="project-tags">
+            <span>PyTorch</span><span>YOLO</span><span>SORT / DeepSort</span><span>CNN</span><span>TensorFlow</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon-row"><span>⚡</span></div>
+          <h3>CPU / GPU Parallelism</h3>
+          <p>Parallel algorithms on multi-core (OpenMP) and distributed-memory (MPI) architectures with rigorous speedup and scalability analysis. CUDA kernel development, CPU vs. GPU benchmarking, and quantization strategies for ML inference on constrained hardware.</p>
+          <div class="project-tags">
+            <span>OpenMP</span><span>MPI</span><span>CUDA</span><span>C++</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon-row"><span>🔬</span></div>
+          <h3>Physics Simulations</h3>
+          <p>Numerical simulation of nuclear core behavior and quantum system evolution using numerical integration methods. Rigorous validation against analytical solutions, software engineering standards for reproducibility.</p>
+          <div class="project-tags">
+            <span>C++</span><span>Python</span><span>Numerical Methods</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon-row"><span>📊</span></div>
+          <h3>Big Data Pipeline</h3>
+          <p>End-to-end data science pipeline: ingestion → Spark processing → OpenSearch indexing → visualization. Containerized with Docker Compose, analytics exposed through a REST API.</p>
+          <div class="project-tags">
+            <span>Spark</span><span>Kafka</span><span>Docker</span><span>OpenSearch</span><span>MinIO</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon-row"><span>🔒</span></div>
+          <h3>Vulnerability Detection Pipeline</h3>
+          <p>Automated pipeline for systematic vulnerability detection, classification, and remediation across heterogeneous server fleets (Linux/Windows/macOS). Applied data science methods for pattern analysis and structured reporting.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Bash</span><span>Security</span><span>Data Science</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="section-container">
+      <div class="section-label">05 / Experience</div>
+      <h2 class="section-title">Experience & Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot active"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">June 2025 – August 2025</div>
+            <h3>Security & Systems Research Intern</h3>
+            <div class="timeline-org">Banque Centrale de Mauritanie</div>
+            <ul>
+              <li>Designed and implemented an automated research-driven pipeline in Python for systematic vulnerability detection, classification, and remediation across large heterogeneous server fleets.</li>
+              <li>Conducted empirical analysis of security patterns across Linux, Windows, and macOS; translated findings into actionable software engineering tools and standardized documentation.</li>
+              <li>Applied data science methods to aggregate and analyze system audit data, producing structured reports for operational decision-making.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span><span>Security</span><span>Linux</span><span>Data Science</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2025 – 2027 (Expected)</div>
+            <h3>Master's-level Engineering Degree in Computer Science</h3>
+            <div class="timeline-org">ENSIIE — École Nationale Supérieure d'Informatique pour l'Industrie et l'Entreprise, Évry</div>
+            <p>Key courses: machine learning, deep learning, computer vision, algorithms & optimization, parallel computing (GPU/CUDA), data science, scientific computing, software engineering, OS, networks, cloud, DevOps.</p>
+            <p>Coding languages: Python, Java, C/C++, OCaml, Bash, CUDA</p>
+            <div class="timeline-tags">
+              <span>HPC</span><span>ML</span><span>Algorithms</span><span>Systems</span><span>DevOps</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HONORS ===== -->
+  <section id="honors">
+    <div class="section-container">
+      <div class="section-label">06 / Distinctions</div>
+      <h2 class="section-title">Honors & Awards</h2>
+      <div class="honors-grid">
+
+        <div class="honor-card">
+          <div class="honor-year">2021</div>
+          <div class="honor-icon">🏆</div>
+          <h3>International Science Olympiad</h3>
+          <p>National Representative — Mauritania</p>
+          <div class="honor-detail">Selected among the top 6 students in the country</div>
+        </div>
+
+        <div class="honor-card">
+          <div class="honor-year">2021</div>
+          <div class="honor-icon">🥇</div>
+          <h3>Valedictorian</h3>
+          <p>National Baccalaureate — Mauritania</p>
+          <div class="honor-detail">1st ranked student nationwide</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-label">07 / Contact</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="contact-desc">
+        Open to research collaborations, internship opportunities, and interesting problems
+        in ML, HPC, and mathematical optimization.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:yahdhih16abdelwedoud@gmail.com" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <div class="contact-type">Email</div>
+            <div class="contact-value">yahdhih16abdelwedoud@gmail.com</div>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="https://www.linkedin.com/in/yahdhih-abdel-wedoud-968829340/" class="contact-card" target="_blank" rel="noopener">
+          <span class="contact-icon">💼</span>
+          <div>
+            <div class="contact-type">LinkedIn</div>
+            <div class="contact-value">yahdhih-abdel-wedoud</div>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="https://github.com/Yahdhih" class="contact-card" target="_blank" rel="noopener">
+          <span class="contact-icon">⚡</span>
+          <div>
+            <div class="contact-type">GitHub</div>
+            <div class="contact-value">github.com/Yahdhih</div>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">YAW<span class="accent">.</span></div>
+      <p>Yahdhih Abdel Wedoud · ENSIIE · Paris, France</p>
+      <p class="footer-math">∇L(θ) → 0 &nbsp;·&nbsp; ∀ε > 0 &nbsp;·&nbsp; O(n log n) &nbsp;·&nbsp; P(y|x;θ)</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
